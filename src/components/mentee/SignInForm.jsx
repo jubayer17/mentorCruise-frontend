@@ -108,6 +108,12 @@ export default function MenteeSignInForm() {
         <a href="#" className="text-teal-600 hover:underline text-sm">
           Forgot password?
         </a>
+        <p className="text-sm text-gray-600 text-center">
+          Don't have an account?{" "}
+          <a href="/mentee/sign-up" className="text-teal-600 hover:underline">
+            Sign up
+          </a>
+        </p>
       </div>
     </div>
   );
