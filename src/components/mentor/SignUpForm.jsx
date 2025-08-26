@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import GoogleIcon from "@/assets/google-svg.svg";
 
-export default function MenteeSignUpForm() {
+export default function MentorSignUpForm() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
@@ -28,8 +28,8 @@ export default function MenteeSignUpForm() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
       <div className="w-full max-w-md p-6 bg-white rounded-lg shadow-sm">
-        <h1 className="text-3xl font-bold mb-6 text-gray-900">
-          Sign Up as Mentee
+        <h1 className=" font-serif text-2xl font-bold mb-6 text-gray-900">
+          Apply for the role of Mentor
         </h1>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
@@ -94,13 +94,12 @@ export default function MenteeSignUpForm() {
             />
           </div>
 
-          {/* ✅ Confirm Password field */}
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
               Confirm Password
             </label>
             <input
-              type={showPassword ? "text" : "password"} // ✅ toggle applied
+              type={showPassword ? "text" : "password"}
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
               className="text-black w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-sm"
@@ -116,8 +115,6 @@ export default function MenteeSignUpForm() {
             <br />
             <span>– Must include one special character</span>
           </p>
-
-          {/* ✅ Show/Hide toggle button */}
 
           <button
             type="submit"
