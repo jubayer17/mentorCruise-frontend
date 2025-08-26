@@ -28,7 +28,7 @@ export default function MenteeSignUpForm() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
       <div className="w-full max-w-md p-6 bg-white rounded-lg shadow-sm">
-        <h1 className="text-3xl font-bold mb-6 text-gray-900">
+        <h1 className="text-2xl font-serif font-bold mb-6 text-gray-900">
           Sign Up as Mentee
         </h1>
         <form onSubmit={handleSubmit} className="space-y-4">
