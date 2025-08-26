@@ -30,7 +30,9 @@ export default function MenteeSignInForm() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
       <div className="w-full max-w-md p-8 bg-white rounded-lg shadow-sm">
-        <h1 className="text-3xl font-bold mb-8 text-gray-900">Log in</h1>
+        <h1 className="text-2xl font-serif font-bold mb-8 text-gray-900">
+          Log in
+        </h1>
         <div className="flex mb-8 border-b border-gray-200">
           <button
             className={`flex-1 py-3 text-base font-medium transition-colors ${
@@ -105,7 +107,10 @@ export default function MenteeSignInForm() {
           />
           <span className="text-black">Log in with Google</span>
         </button>
-        <a href="#" className="text-teal-600 hover:underline text-sm">
+        <a
+          href="/forget-password"
+          className="text-teal-600 hover:underline text-sm"
+        >
           Forgot password?
         </a>
         <p className="text-sm text-gray-600 text-center">
