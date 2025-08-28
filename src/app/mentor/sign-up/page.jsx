@@ -1,9 +1,9 @@
-import MenteeSignUpForm from "@/components/mentee/SignUpForm";
+import MentorSignUpForm from "@/components/mentor/SignUpForm";
 
 export default function SignUpPage() {
   return (
     <div>
-      <MenteeSignUpForm />
+      <MentorSignUpForm />
     </div>
   );
 }

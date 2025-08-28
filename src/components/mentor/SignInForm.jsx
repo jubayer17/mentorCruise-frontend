@@ -108,7 +108,9 @@ export default function SignInForm() {
         >
           Forgot password?
         </a>
-        <p className="text-sm text-gray-600">Don't have an account? </p>
+        <p className="text-sm text-gray-600 mt-2 mb-1">
+          Don't have an account?{" "}
+        </p>
         <p>
           <a
             href="/mentee/sign-up"
